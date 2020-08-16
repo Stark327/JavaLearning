@@ -12,6 +12,5 @@ public class SpringAnnotationTest {
         System.out.println(context.getBean("user"));
         UserController userController = (UserController) context.getBean("userController");
         userController.execute();
-
     }
 }
